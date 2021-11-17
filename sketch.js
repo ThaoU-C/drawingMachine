@@ -72,7 +72,6 @@ function keyTyped(){
 
   if(key === 'b'){
     background(random(225), 225, random(225));
-
   }
 
   if (key === 's'){
@@ -96,7 +95,6 @@ function keyTyped(){
     ellipse(xPos-25,yPos-5,22,22)
     ellipse(xPos-17,yPos-20,22,22)
     ellipse(xPos,yPos-15,22,22)
-    // fill(255, 230, 51);
     fill (225, random(225), random(225));
     ellipse(xPos-12,yPos-7,25,25) 
   }
