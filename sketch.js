@@ -11,6 +11,7 @@ function setup() {
   strokeWeight(1)
   drawGrid();
 
+
 }
 function colorFlower(){
   fill(random(255), random(255), random(255));
@@ -99,4 +100,5 @@ function keyTyped(){
     ellipse(xPos-12,yPos-7,25,25) 
   }
 
+  
 }
